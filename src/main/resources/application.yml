@@ -4,4 +4,5 @@ spring:
     jpa:
         properties:
             eclipselink.weaving: false
+            eclipselink.ddl-generation: drop-and-create-tables
         show-sql: true
