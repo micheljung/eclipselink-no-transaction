@@ -1,0 +1,33 @@
+buildscript {
+  repositories {
+    mavenCentral()
+    jcenter()
+    maven { url "https://plugins.gradle.org/m2/" }
+    maven { url 'http://repo.spring.io/plugins-release' }
+  }
+  dependencies {
+    classpath("org.springframework.boot:spring-boot-gradle-plugin:1.4.3.RELEASE")
+  }
+}
+
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+
+sourceCompatibility = 1.8
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile("org.springframework.boot:spring-boot-starter-data-jpa") {
+    exclude group: "org.hibernate", module: "hibernate-entitymanager"
+  }
+  compile("org.eclipse.persistence:org.eclipse.persistence.jpa:2.6.4")
+  compile("org.zalando.stups:data-jpa-eclipselink-spring-boot-starter:0.10.1")
+  compile("com.h2database:h2")
+}

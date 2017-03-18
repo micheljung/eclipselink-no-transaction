@@ -1,0 +1,7 @@
+spring:
+    datasource:
+        platform: h2
+    jpa:
+        properties:
+            eclipselink.weaving: false
+        show-sql: true

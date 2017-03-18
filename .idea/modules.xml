@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eclipselink-no-transaction.iml" filepath="$PROJECT_DIR$/.idea/modules/eclipselink-no-transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eclipselink-no-transaction_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eclipselink-no-transaction_main.iml" group="eclipselink-no-transaction" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eclipselink-no-transaction_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eclipselink-no-transaction_test.iml" group="eclipselink-no-transaction" />
+    </modules>
+  </component>
+</project>
